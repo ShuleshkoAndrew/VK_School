@@ -35,7 +35,30 @@ def merge_sorted_arrays(arr1: list, arr2: list) -> list:
     return merged_arrays
 
 
-def
+# мы предполагаем, что arr1 - это изначально наибольший массив, расширенный до размера len(arr1) + len(arr2)
+def economic_merge_sorted_arrays(arr1: list, arr2: list) -> list:
+    pointer1 = len(arr1) - 1
+    pointer2 = len(arr2) - 1
+    pointer3 = len(arr1) - len(arr2) - 1
+
+    while pointer2 >= 0:
+        if pointer3 >= 0 and arr1[pointer3] > arr2[pointer2]:
+            arr1[pointer1] = arr1[pointer3]
+            pointer3 -= 1
+        else:
+            arr1[pointer1] = arr2[pointer2]
+            pointer2 -= 1
+        pointer1 -= 1
+
+    return arr1
 
 
-print(merge_sorted_arrays([3, 8, 10, 11], [1, 7, 9]))
+def even_first(arr: list) -> list:
+    even_index = 0
+
+    for i in range(len(arr)):
+        if arr[i] % 2 == 0:
+            arr[even_index], arr[i] = arr[i], arr[even_index]
+            even_index += 1
+
+    return arr
