@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5bbc5262-a4e7-49e8-b548-0a530fbae558" name="Changes" comment="-">
-      <change afterPath="$PROJECT_DIR$/HomeWork_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClassWork_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lection_1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,9 +29,23 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;ShuleshkoAndrew&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="21f7a9f8-6c85-49f3-825c-dacf143c4a51" />
+        <option name="url" value="https://github.com/ShuleshkoAndrew/VK_School.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2dUjihSyM4s1nJNrVquvwUfP5gO" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -40,7 +55,9 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.ClassWork.executor": "Run",
+    "Python.HomeWork_1.executor": "Run",
     "Python.InverseList.executor": "Run",
+    "Python.Lection_1.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "VK__ClassWork__1",
@@ -87,7 +104,23 @@
       <option name="project" value="LOCAL" />
       <updated>1710078655136</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="-">
+      <option name="closed" value="true" />
+      <created>1710080269621</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1710080269621</updated>
+    </task>
+    <task id="LOCAL-00005" summary="-">
+      <option name="closed" value="true" />
+      <created>1710080314921</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1710080314921</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
